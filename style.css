@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Press+Start+2P&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{    
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hero-banner{
+    background-color: #007fff;
+    height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-banner h1{
+    color: white;
+    margin: 14px 0 20px;
+}
+
+.hero-banner h3{
+    color: white;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.hero-banner h4,
+.hero-banner a{
+    color: white;
+    margin: 0;
+}
+
+.character1{
+    background: url(img/miyazono_kaori_render_by_stella1994x_d89pmf4.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 523px;
+    height: 563px;
+    position: absolute;
+    top: 124px;
+    right: 283px;
+}
+
+.character2{
+    background: url(img/kousei.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 544px;
+    height: 493px;
+    position: absolute;
+    top: 119px;
+    right: 145px;
+}
+
+.character3{
+    background: url(img/sawabe_tsubaki_render_by_stella1994x_d89o942.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 511px;
+    height: 508px;
+    position: absolute;
+    top: 124px;
+    right: 48px;
+}
+
+.character4{
+    background: url(img/watari_ryouta_render_by_stella1994x_d89lt6y.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 485px;
+    height: 534px;
+    position: absolute;
+    top: 92px;
+    right: -33px;
+}
+
+a.cta,
+button.cta{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: #007FFF;
+    display: inline-block;
+    outline: 10px solid rgba(0,127,255,.15);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.cta.alt,
+button.cta.alt{
+    background-color: #FFD400;
+    outline-color: rgba(0,0,0,.15);
+    color: #111111;
+}
+
