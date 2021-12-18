@@ -190,13 +190,108 @@ nav ul li a {
     font-weight: 800;
 }
 
+.sep{
 
-/* <div class="more-info" id = "more-info">
-        <h2>Join Our Fan Club</h2>
+}
+
+.nb-list{
+    width: 470px;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+    background-color: #EDEDED;
+}
+
+.nb-list li{
+    height: 70px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+}
+
+.nb-list li.red{
+    background-color: #FF3300;
+}
+.nb-list li.blue{
+    background-color: #007FFF;
+}
+.nb-list li.gray{
+    background-color: rgba(0,0,0,.1);
+}
+.nb-list li.yellow{
+    background-color: #FFD400;
+    color: #111111;
+}
+.nb-list li.pink{
+    background-color: #FFADF9;
+}
+.nb-list li.salmon{
+    background-color: #FA8072;
+}
+
+/* <div class="sep"></div>
+    <div class="story" >
+        <ul class="nb-list">
+            <li class = "blue">Rock 'n Roll</li>
+            <li class = "gray">&nbsp;</li>
+            <li class = "yellow dragging">Laughter</li>
+            <li class = "red">Square Offs</li>
+            <li class = "pink">Circuitous Routes</li>
+            <li class = "salmon">Trigonometry</li>
+            <li class = "blue">Rad Hats</li>
+            <li class="yellow">Being Silly</li>
+        </ul>
+        <h3 id = "story">
+            Left: Things We Find Important <br>
+            Below: Our Story
+        </h3>
         <p>
-            Every week we have <span class="highlight">a party</span>. If you want to join us then join our fan club.
-            Members will also receive pictures of us in all kinds of shapes and sizes. Cool
-            huh?
+            Once upon a time there was a group of shapes. They were mostly black and rectangular. They were mean and very serious.
         </p>
-        <button class="cta">Sign Me Up!!!</button>
+        <p>
+            And so they kicked the 3 shapes that didn’t conform out of their gang, which was called the Right Angled Gang.
+        </p>
+        <p>
+            And so these 3 shapes were very sad, but found great joy and comfort being around each other. They soon started having a lot of fun, started rocking and rolling, started being silly, and became the most well-known shape gang in the universe.
+        </p>
+        <p> 
+            They even started making fun of squares and rectangles in what they like to call ‘Square Offs’!
+        </p>
+    </div>
+    <div class="sep">
+
+    </div>
+    <img src = "img/sK3OOjw.jpg" width="735" height="399" alt="Kaori and Friends">
+    <footer>
+        Made by Rich from <a href="https://www.taptapkaboom.com/">Tap Tap Kaboom</a>
+    </footer>
+    <div class="popup">
+        <div class="blanket"></div>
+        <div class="content">
+            <h2>Fill In Your Details</h2>
+            <form action = "">
+                <div class = "item">
+                    <label>Your First Name</label>
+                    <input type = "text" placeholder = "Awesome Face" value = "Shirley">
+                </div>
+                <div class="item">
+                    <label>Your Last Name</label>
+                    <input type = "text" placeholder = "Circle Face">
+                </div>
+                <div class="item">
+                    <label>Your Favorite Color</label>
+                    <input type = "text" placeholder = "Pink">
+                </div>
+                <div class="item">
+                    <label>Your Favorite Food</label>
+                    <input type = "text" placeholder = "Apple Pie">
+                </div>
+                <button class="cta">I Want In!</button>
+            </form>
+        </div>
+        <button class="close">Close</button>
     </div> */
